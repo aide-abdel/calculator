@@ -1,0 +1,85 @@
+.calculatorContainer{
+    width: 50%;
+    height: 500px;
+    display: grid;
+    margin: auto;
+    background-color: wheat;
+}
+.inputText{
+    border: solid orange;
+    border-width: .29em;
+    height: 60px;
+    margin-bottom: -25px;
+    font-size: 3em;
+    color: orange;
+    font-weight: bold;
+    background-color: white;
+}
+.firstLineButtons{
+    margin-top: 0;
+    width: 100%;
+    /* border: solid orange; */
+    display: flex;
+    justify-content: space-between;
+}
+.secondLineButtons {
+    width: 100%;
+    /* border: solid magenta; */
+    display: flex;
+    justify-content: space-between;
+}
+.thirdLineButtons {
+    width: 100%;
+    /* border: solid magenta; */
+    display: flex;
+    justify-content: space-between;
+}
+.fourthLineButtons {
+    width: 100%;
+    /* border: solid magenta; */
+    display: flex;
+    justify-content: space-between;
+}
+.fifthLineButtons{
+    width: 100%;
+    /* border: solid magenta; */
+    display: flex;
+    justify-content: space-between;
+}
+.sixthLineButtons{
+    width: 100%;
+    /* border: solid magenta; */
+    display: flex;
+    justify-content: space-between;
+}
+.calcButton{
+    box-sizing: border-box;
+    border: solid orange;
+    width: 23%;
+    height: 95%;
+    background-color: gray;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2%;
+}
+.numButton{
+    box-sizing: border-box;
+    border: solid orange;
+    width: 23%;
+    height: 95%;
+    background-color: gray;
+    color: white;
+    font-size: 2em;
+    text-align: center;
+    padding-top: 2%;
+}
+#zero{
+    width: 48.5%;
+}
+.numButton:hover{
+    background-color: orange;
+}
+.calcButton:hover{
+    background-color: orange;
+}
